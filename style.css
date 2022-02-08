@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    align-items: center;
+    width: 1440px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+header{
+    background-image: url(images/bg-hero-desktop.svg);
+}
+
+.middle__header{
+    display: flex;
+    
+}
+
+.header__titles{
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 30px 30px 0 30px;
+    width: 100%;
+    
+}
+
+.huddler{
+    font-weight:800;
+    font-size: xx-large;
+}
+
+.header__button_one{
+    background-color: rgb(235, 231, 231);
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: large;
+    height: 37px;
+    width: 150px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+}
+
+.header__button_one:hover{
+    color: rgb(146, 145, 145);
+}
+
+.header__content{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__title__content{
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+.header__text{
+    padding-bottom: 20px;
+}
+
+#header__img{
+    width: 700px;
+    height: 500px;
+    padding: 60px;
+}
+
+.header__button_two{
+    background-color: rgb(255, 0, 200);
+    color: white;
+    font-weight: 700;
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+}
+
+.header__button_two:hover{
+    background-color: rgb(255, 155, 222);
+}
