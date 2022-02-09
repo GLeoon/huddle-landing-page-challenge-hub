@@ -6,17 +6,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    align-items: center;
-    width: 1440px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-}
-
 header{
     background-image: url(images/bg-hero-desktop.svg);
+    width: 1440px;
+    margin: auto;
+    margin-bottom: 90px;
+
 }
 
 .middle__header{
@@ -62,7 +57,7 @@ header{
 
 .header__title__content{
     padding-bottom: 30px;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .header__text{
@@ -70,8 +65,8 @@ header{
 }
 
 #header__img{
-    width: 700px;
-    height: 500px;
+    width: 800px;
+    height: 600px;
     padding: 60px;
 }
 
@@ -88,4 +83,94 @@ header{
 
 .header__button_two:hover{
     background-color: rgb(255, 155, 222);
+}
+
+.main__section{
+    box-shadow: 0 0 1em rgba(240, 240, 240, 0.99);
+    border-radius: 14px;
+    padding: 30px;
+    margin: 0 auto 30px auto;
+    width: 1000px;
+    display: flex;
+}
+
+.main__img{
+    height: 250px;
+    padding-left: 30px;
+}
+
+.main__text{
+    padding: 0 160px 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 500px; */
+}
+
+#main__text{
+    padding: 0 0px 0 140px;
+}
+
+.main__section__title{
+    padding-bottom: 15px;
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.main__section__description{
+    color: rgb(173, 173, 173);
+}
+
+.main__last__button{
+    padding: 35px 0;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    box-shadow: 0 0 1em rgba(240, 240, 240, 0.99);
+    border-radius: 14px;
+
+}
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    width: 1440px;
+    height: 100%;
+    margin: auto;
+    color: white;
+}
+
+.footer__section{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.footer__div{
+    padding: 30px;
+    width: 500px;    
+}
+
+.footer__social{
+    padding: 30px;
+    width: 500px;  
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.icons{
+    display: flex;
+}
+
+p{
+    padding: 0 0 30px 10px ;
+}
+
+.copyright{
+    text-align: end;
+    padding-right: 50px;
 }
