@@ -33,9 +33,11 @@ header{
 }
 
 .header__button_one{
-    background-color: rgb(235, 231, 231);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 1em rgba(240, 240, 240, 0.99);
+    border-radius: 15px;
     color: rgb(0, 0, 0);
-    font-weight: 900;
+    font-weight: 800;
     font-size: large;
     height: 37px;
     width: 150px;
@@ -65,8 +67,8 @@ header{
 }
 
 #header__img{
-    width: 800px;
-    height: 600px;
+    width: 900px;
+    height: 650px;
     padding: 60px;
 }
 
@@ -129,9 +131,12 @@ header{
     flex-direction: column;
     align-items: center;
     gap: 30px;
-
+    background-color: white;
     box-shadow: 0 0 1em rgba(240, 240, 240, 0.99);
     border-radius: 14px;
+
+    position: relative;
+    top: 85px;
 
 }
 
@@ -140,26 +145,29 @@ footer{
     width: 1440px;
     height: 100%;
     margin: auto;
-    color: white;
+    color: hsl(193, 100%, 96%);
 }
 
 .footer__section{
     display: flex;
     justify-content: space-around;
-    padding: 30px;
+    padding-left: 30px;
 }
 
 .footer__div{
     padding: 30px;
-    width: 500px;    
+    width: 200px;
+}
+
+#footer__div__text{
+    width: 455px;
 }
 
 .footer__social{
     padding: 30px;
-    width: 500px;  
+    width: 200px;  
     display: flex;
-    justify-content: space-around;
-
+    gap: 30px;
 }
 
 .icons{
@@ -173,4 +181,11 @@ p{
 .copyright{
     text-align: end;
     padding-right: 50px;
+}
+
+.huddler__a{
+    position: relative;
+    top: 60px; left: 60px;
+    width: 150px;
+    height: 150px;
 }
